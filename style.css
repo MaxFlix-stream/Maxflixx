@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 0, 0);
+    }
+.btn{
+position: absolute;
+top: 65%;
+left: 10%;
+background-color: red;
+color: white;
+font-size: 16px;
+padding: 16px 30px;
+border: none;
+cursor: pointer;
+border-radius: 10px;
+text-align: center;
+        }
+        .btn2{
+            position: absolute;
+            top: 1%;
+            left: 90%;
+            background-color: red;
+            color: white;
+            font-size: 16px;
+            padding: 16px 30px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            text-align: center;
+
+        }
+
+
+        .btn3{
+            position: absolute;
+            top: 1%;
+            left: 83.5%;
+            background-color: red;
+            color: white;
+            font-size: 16px;
+            padding: 16px 30px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            text-align: center;
+
+        }
+
+        .BigText{
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            width: 30%;
+            font-size: 300%;
+            color: white;
+        }
+        
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover{
+            background-color: red;
+            border-radius: 10px;
+        }
+                .arcaneimg{
+            width: 1850px;
+            height: 1000px;
+            
+        }
+        .moviesection{
+            max-width: 900px;
+            text-transform: uppercase;
+            padding-left: 10%;
+            color: white;
+        }
+        hr.rounded{
+            border-top: 3px solid red;
+            border-radius: 5px;
+        }
+.movieimg .myimages{
+height: 500px;
+width: 280px;
+}
+.movieimg .myimages img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 5px;
+}
+.movieimg{
+    float: left;
+    width: 30%;
+    padding: 15px;
+    max-width: max-content;
+    padding-left: 5px;
+}
+.moviecontainer::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.moviecontainer{
+    height: max-content;
+    width: max-content;
+}
+
+        
+#button_modal{
+    height: 50px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.button_container{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+
+#modal{
+    height: 300px;
+    width: 30%;
+    background-position: center;
+    position: absolute;
+    top: -600px;
+    
+}
+
+#modal iframe{
+    padding: 60px;
+    align-items: center;
+    align-self: center;
+}
